@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.bytespacegames.dontjoinmylobby.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinChatComponent"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
