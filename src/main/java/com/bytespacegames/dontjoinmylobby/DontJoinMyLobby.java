@@ -3,7 +3,6 @@ package com.bytespacegames.dontjoinmylobby;
 import com.bytespacegames.dontjoinmylobby.command.CommandManager;
 import com.bytespacegames.dontjoinmylobby.command.impl.DontJoinMyLobbyCmd;
 import net.fabricmc.api.ClientModInitializer;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import org.slf4j.Logger;
@@ -88,6 +87,6 @@ public class DontJoinMyLobby implements ClientModInitializer {
         }
     }
 	public void displayMessage(String s) {
-		Minecraft.getInstance().gui.getChat().addMessage(Component.literal(PREFIX + s));
+		Minecraft.getInstance().gui.getChat().addClientSystemMessage(Component.literal(PREFIX + s));
 	}
 }

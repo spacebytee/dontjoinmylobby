@@ -2,16 +2,12 @@ package com.bytespacegames.dontjoinmylobby.command;
 
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.tree.LiteralCommandNode;
-import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
+import net.fabricmc.fabric.api.client.command.v2.ClientCommands;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
-import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
-import net.minecraft.client.multiplayer.ClientSuggestionProvider;
-
 import java.util.ArrayList;
 import java.util.List;
-
-import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.literal;
+import static net.fabricmc.fabric.api.client.command.v2.ClientCommands.literal;
 
 public class CommandManager {
     public static CommandManager INSTANCE;
@@ -29,7 +25,7 @@ public class CommandManager {
             final LiteralCommandNode<FabricClientCommandSource> node = dispatcher.register(
                     literal(c.getName())
                             .executes(c::execute)
-                            .then(ClientCommandManager.argument("args", StringArgumentType.greedyString()).executes(c::execute))
+                            .then(ClientCommands.argument("args", StringArgumentType.greedyString()).executes(c::execute))
             );
         });
         registeredCommands.add(c);

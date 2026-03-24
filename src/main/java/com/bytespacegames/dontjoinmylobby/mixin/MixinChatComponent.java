@@ -2,7 +2,10 @@ package com.bytespacegames.dontjoinmylobby.mixin;
 
 import com.bytespacegames.dontjoinmylobby.DontJoinMyLobby;
 import net.minecraft.client.gui.components.ChatComponent;
+import net.minecraft.client.multiplayer.chat.GuiMessageSource;
+import net.minecraft.client.multiplayer.chat.GuiMessageTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MessageSignature;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -21,7 +24,7 @@ public class MixinChatComponent {
 	}*/
     private final String[] TRIGGERS = { "joined the lobby!", "slid into the lobby", "spooked into the lobby"};
     @Inject(at = @At("HEAD"), method = "addMessage", cancellable = true)
-    public void addMessage(Component component, CallbackInfo ci) {
+    public void addMessage(Component component, MessageSignature signature, GuiMessageSource source, GuiMessageTag tag, CallbackInfo ci) {
         if (!DontJoinMyLobby.INSTANCE.isEnabled()) return;
         if (DontJoinMyLobby.INSTANCE.isHypixelOnly() && !DontJoinMyLobby.INSTANCE.isOnHypixel()) return;
         String contents = component.getString().trim();
