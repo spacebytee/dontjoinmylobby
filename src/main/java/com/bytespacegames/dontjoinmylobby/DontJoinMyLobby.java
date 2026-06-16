@@ -87,6 +87,6 @@ public class DontJoinMyLobby implements ClientModInitializer {
         }
     }
 	public void displayMessage(String s) {
-		Minecraft.getInstance().gui.getChat().addClientSystemMessage(Component.literal(PREFIX + s));
+		Minecraft.getInstance().gui.hud.getChat().addClientSystemMessage(Component.literal(PREFIX + s));
 	}
 }
