@@ -21,6 +21,7 @@ public class DontJoinMyLobby implements ClientModInitializer {
 	public void onInitializeClient() {
 		INSTANCE = this;
 		new CommandManager();
+        new RegexManager();
 		CommandManager.INSTANCE.registerCommand(new DontJoinMyLobbyCmd());
 		load();
 	}

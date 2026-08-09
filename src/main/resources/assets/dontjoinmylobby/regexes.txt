@@ -1,0 +1,136 @@
+# english
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ joined the lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ spooked into the lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ slid into the lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ sled into the lobby!( <<<)?
+
+# german
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ hat die Lobby betreten!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ ist in die Lobby gespukt!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ ist in die Lobby gerutscht!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ schlitterte in die Lobby!( <<<)?
+
+# french
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ a rejoint le lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ a effrayé le lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ a glissé dans le lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ est arrivé en traîneau dans le lobby!( <<<)?
+
+# dutch
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ is de lobby binnen gekomen!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ griezelde de lobby in!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ glijdt de lobby in!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ is de lobby ingeschaatst!( <<<)?
+
+# spanish
+(>>> )?¡\[MVP\+{1,2}\] [A-Za-z0-9_]+ se ha unido al lobby!( <<<)?
+(>>> )?¡\[MVP\+{1,2}\] [A-Za-z0-9_]+ asustó al lobby!( <<<)?
+(>>> )?¡\[MVP\+{1,2}\] [A-Za-z0-9_]+ se deslizó al lobby!( <<<)?
+
+# italian
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ è entrato nella lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ ha spaventato la lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ è slittato nella lobby!( <<<)?
+
+# chinese (simplified)
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+进入了大厅！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+潜入了大厅！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+滑入了大厅！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+滑进了大厅！( <<<)?
+
+# chinese (traditional)
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ 加入了大廳！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ 飄入了大廳！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ 滑進了大廳！( <<<)?
+
+# brazilian portuguese
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ entrou no lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ assustou o lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ deslizou no lobby!( <<<)?
+
+# russian
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ зашёл в лобби!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ страшно ворвался в лобби!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ приехал в лобби на санях!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ приехал на санях!( <<<)?
+
+# korean
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ 님이 로비에 접속했습니다!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ 님이 깜짝스럽게 로비에 등장했습니다!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ 님이 로비로 다이빙했습니다!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ 님이 썰매를 타고 로비에 도착했습니다!( <<<)?
+
+# polish
+(>>> )?Gracz \[MVP\+{1,2}\] [A-Za-z0-9_]+ wszedł do poczekalni!( <<<)?
+(>>> )?Gracz \[MVP\+{1,2}\] [A-Za-z0-9_]+ nawiedził poczekalnię!( <<<)?
+(>>> )?Gracz \[MVP\+{1,2}\] [A-Za-z0-9_]+ wśliznął się do poczekalni!( <<<)?
+(>>> )?Gracz \[MVP\+{1,2}\] [A-Za-z0-9_]+ wlatuje na saniach do poczekalni!( <<<)?
+
+# japanese
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ がロビーに参加しました！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ が不気味にロビーに来ました！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ がロビーに滑ってきました！( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ がそりに乗ってロビーに来ました！( <<<)?
+
+# pirate speak
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ boarded th' port!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ spooked int' th' port!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ slid int' th' port!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ be sleddin' int' th' port!( <<<)?
+
+# norwegian
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ ble med i lobbyen!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ spøkte inn i lobbyen!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ sklei inn i lobbyen!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ akte inn i lobbyen!( <<<)?
+
+# portuguese pt
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ entrou no lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ assustou o lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ deslizou até ao lobby!( <<<)?
+
+# swedish
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ anslöt sig till lobbyn!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ skrämde sig i lobbyn!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ gled in i lobbyn!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ släde in i lobbyn!( <<<)?
+
+# turkish
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ lobiye katıldı!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ korkutucu bir şekilde lobiye giriş yaptı!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ lobiye kaydı!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ lobiye kayarak giriş yaptı!( <<<)?
+
+# danish
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ tilsluttede sig lobbyen\.( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ skræmte sig ind i lobbyen!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ gled ind i lobbyen!( <<<)?
+
+# czech
+(>>> )?Hráč \[MVP\+{1,2}\] [A-Za-z0-9_]+ se připojil do lobby!( <<<)?
+(>>> )?Hráč \[MVP\+{1,2}\] [A-Za-z0-9_]+ byl zastrašen do lobby!( <<<)?
+(>>> )?Hráč \[MVP\+{1,2}\] [A-Za-z0-9_]+ vklouzl do lobby!( <<<)?
+(>>> )?Hráč \[MVP\+{1,2}\] [A-Za-z0-9_]+ se sklouznul do lobby!( <<<)?
+
+# finnish
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ saapui lobbyyn!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ hyppäsi lobbyyn!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ kelkkaili lobbyyn!( <<<)?
+
+# ukranian
+(>>> )?Гравець \[MVP\+{1,2}\] [A-Za-z0-9_]+ приєднався до лобі!( <<<)?
+(>>> )?Гравець \[MVP\+{1,2}\] [A-Za-z0-9_]+ моторошно залетів до лобі!( <<<)?
+(>>> )?Гравець \[MVP\+{1,2}\] [A-Za-z0-9_]+ заїхав до лобі!( <<<)?
+(>>> )?Гравець \[MVP\+{1,2}\] [A-Za-z0-9_]+ заїхав до лобі на санях!( <<<)?
+
+# romanian
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ s-a alăturat lobby-ului!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ s-a spăimântat în lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ s-a strecurat în lobby!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ a ajuns cu săniuța în lobby!( <<<)?
+
+# hungarian
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ csatlakozott a lobbyba!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ beijesztett a lobbyba!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ becsúszott a lobbyba!( <<<)?
+(>>> )?\[MVP\+{1,2}\] [A-Za-z0-9_]+ beszánkózott a lobbyba!( <<<)?

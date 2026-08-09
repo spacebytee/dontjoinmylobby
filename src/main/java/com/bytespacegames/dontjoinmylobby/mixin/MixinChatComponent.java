@@ -1,6 +1,7 @@
 package com.bytespacegames.dontjoinmylobby.mixin;
 
 import com.bytespacegames.dontjoinmylobby.DontJoinMyLobby;
+import com.bytespacegames.dontjoinmylobby.RegexManager;
 import net.minecraft.client.gui.components.ChatComponent;
 import net.minecraft.client.multiplayer.chat.GuiMessageSource;
 import net.minecraft.client.multiplayer.chat.GuiMessageTag;
@@ -22,27 +23,22 @@ public class MixinChatComponent {
 		System.out.println("mixin");
 		ci.cancel();
 	}*/
-    private final String[] TRIGGERS = { "joined the lobby!", "slid into the lobby", "spooked into the lobby"};
     @Inject(at = @At("HEAD"), method = "addMessage", cancellable = true)
     public void addMessage(Component component, MessageSignature signature, GuiMessageSource source, GuiMessageTag tag, CallbackInfo ci) {
         if (!DontJoinMyLobby.INSTANCE.isEnabled()) return;
         if (DontJoinMyLobby.INSTANCE.isHypixelOnly() && !DontJoinMyLobby.INSTANCE.isOnHypixel()) return;
+
         String contents = component.getString().trim();
         contents = contents.replaceAll("§.", "");
 
-        if (contents.contains(":")) return;
-        if (!contents.contains("[MVP+")) return;
-        System.out.println(contents);
-        if (!contents.startsWith("[MVP+") && !contents.startsWith(">>>")) return;
-
-        boolean containsTrigger = false;
-        for (String s : TRIGGERS) {
-            if (contents.contains(s)) {
-                containsTrigger = true;
+        boolean matches = false;
+        for (String pattern : RegexManager.INSTANCE.getPatterns()) {
+            if (contents.matches(pattern)) {
+                matches = true;
                 break;
             }
         }
-        if (!containsTrigger) return;
+        if (!matches) return;
         ci.cancel();
     }
 }
