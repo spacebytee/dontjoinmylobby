@@ -7,4 +7,4 @@ A very simple mod to hide hypixel lobby join messages. Works by default with no 
 /dontjoinmylobby hypixelonly - toggles making the feature work exclusively on Hypixel IPs. Can be disabled if using an alternate IP to join Hypixel or are playing on a server with the same join message formats.
 
 ## Credits
-* avrgco2enjoyer: for the translated lobby join messages
+* avrgCO2enjoyer: for the translated lobby join messages
